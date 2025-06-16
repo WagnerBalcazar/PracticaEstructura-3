@@ -1,0 +1,52 @@
+[
+  {
+    "route": "",
+    "flowLayout": false,
+    "params": {},
+    "title": "Main Layout",
+    "children": [
+      {
+        "route": "",
+        "menu": {
+          "exclude": true
+        },
+        "flowLayout": false,
+        "params": {},
+        "title": "Main"
+      },
+      {
+        "route": "cuenta-list",
+        "title": "Cuenta",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 3,
+          "title": "Cuenta"
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "persona-list",
+        "title": "Persona",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 2,
+          "title": "Persona"
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "task-list",
+        "title": "Task List",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 1,
+          "title": "Task List"
+        },
+        "flowLayout": false,
+        "params": {}
+      }
+    ]
+  }
+]
